@@ -1,4 +1,4 @@
-# Country Information App
+# 🌍 Country Information App 🌍
 
 This Kotlin-based mobile application utilizes the Rest Countries API to fetch and display country data from around the world. The app manages API requests using the Retrofit library and presents users with information such as country name, capital, spoken languages, population, currency, time zone, the first day of the week, and the country's location on Google Maps.
 
@@ -31,9 +31,8 @@ This Kotlin-based mobile application utilizes the Rest Countries API to fetch an
 
 ## Screenshots
 
-![Main Screen](screenshots/main_screen.png)
-![Country Detail](screenshots/country_detail.png)
-![Map](screenshots/map.png)
+![Main Screen](https://swanky.website/PicturesAndGifs/country1.png)
+![Country Detail](https://swanky.website/PicturesAndGifs/country2.png)
 
 ---
 
