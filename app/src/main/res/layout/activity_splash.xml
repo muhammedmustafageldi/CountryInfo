@@ -5,14 +5,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.MainActivity">
+    android:background="@color/my_dark_blue"
+    tools:context=".view.SplashActivity">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/countryRecycler"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/splashAnim"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_speed="1.75"
+        app:lottie_loop="false"
+        app:lottie_rawRes="@raw/splash" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,5 +1,7 @@
 package com.swanky.countryinfo.model
 
+import com.google.gson.annotations.SerializedName
+
 data class CountryData(
     val flags: Flags,
     val startOfWeek: String,
@@ -10,7 +12,7 @@ data class CountryData(
     val maps: Maps,
     val population: Int,
     val timezones: List<String>
-)
+) : java.io.Serializable
 
 data class Flags(
     val png: String,
@@ -20,13 +22,7 @@ data class Flags(
 
 data class Name(
     val common: String,
-    val official: String,
-    val nativeName: Map<String, CommonName>
-)
-
-data class CommonName(
-    val official: String,
-    val common: String
+    val official: String
 )
 
 data class Currency(
