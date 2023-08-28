@@ -30,9 +30,10 @@ This Kotlin-based mobile application utilizes the Rest Countries API to fetch an
 4. Run the application on an emulator or a physical device.
 
 ## Screenshots
-
-![Main Screen](https://swanky.website/PicturesAndGifs/country1.png)
-![Country Detail](https://swanky.website/PicturesAndGifs/country2.png)
+<p align="left">
+<img src="https://swanky.website/PicturesAndGifs/country1.png" width="250" height="400"/>
+<img src="https://swanky.website/PicturesAndGifs/country2.png" width="250" height="400"/> 
+</p>
 
 ---
 
