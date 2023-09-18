@@ -31,8 +31,8 @@ This Kotlin-based mobile application utilizes the Rest Countries API to fetch an
 
 ## Screenshots
 <p align="left">
-<img src="https://github.com/muhammedmustafageldi/My-Design-Files/blob/main/Screnshots/Country/country1.png" width="250" height="450"/>
-<img src="https://github.com/muhammedmustafageldi/My-Design-Files/blob/main/Screnshots/Country/country2.png" width="250" height="450"/> 
+<img src="https://github.com/muhammedmustafageldi/My-ScreenShots-Files/blob/main/Screnshots/Country/country1.png" width="250" height="450"/>
+<img src="https://github.com/muhammedmustafageldi/My-ScreenShots-Files/blob/main/Screnshots/Country/country2.png" width="250" height="450"/> 
 </p>
 
 ---
